@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="Huy",
-    version="0.2",
+    version="0.3",
     author="Petr Srakovorodnikov",
     author_email="petya.obosralsya@mail.ru",
     description="A package to draw dicks",
