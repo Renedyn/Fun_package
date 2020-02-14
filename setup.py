@@ -1,5 +1,11 @@
 import setuptools
 
+
+import os
+package_dir = os.path.dirname(os.path.realpath(__file__))
+include_dir = os.path.join(package_dir, 'docs')
+
+
 setuptools.setup(
     name="Huy",
     version="0.4",
@@ -14,4 +20,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    inclode_dirs = [include_sir],
 )
