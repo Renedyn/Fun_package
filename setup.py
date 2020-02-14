@@ -1,11 +1,5 @@
 import setuptools
 
-
-import os
-package_dir = os.path.dirname(os.path.realpath(__file__))
-include_dir = os.path.join(package_dir)
-
-
 setuptools.setup(
     name="Huy",
     version="0.4",
@@ -20,5 +14,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    include_dirs = [include_dir],
+    package_data={'': ['huy.py']},
+    include_package_data=True,
 )
