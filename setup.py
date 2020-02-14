@@ -20,5 +20,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    inclode_dirs = [include_sir],
+    include_dirs = [include_dir],
 )
