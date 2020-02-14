@@ -3,7 +3,7 @@ import setuptools
 
 import os
 package_dir = os.path.dirname(os.path.realpath(__file__))
-include_dir = os.path.join(package_dir, 'docs')
+include_dir = os.path.join(package_dir)
 
 
 setuptools.setup(
