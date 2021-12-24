@@ -94,9 +94,9 @@ plt.show()
 
 @staticmethod
     def text(text='Huy',  # Just prints "Huy"
-             amount=1,
-             sep=' '):
-        for i in range(amount):
-            print(text, sep=sep)
+         amount=1,
+         sep=' '):
+    print(*[text]*amount, sep=sep)
+
 
 
